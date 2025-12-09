@@ -1,0 +1,65 @@
+/****** Header ***********/
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo {
+    height: 100%;
+    width: 160px;
+}
+
+.Logo a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo a img {
+    height: 19px;
+    width: auto;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0 50px;
+    height: 100%;
+    gap: 50px;
+}
+
+.Menu-btn {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+}
+
+.Menu-btn a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.Menu-btn:hover {
+    border-top: 2px solid var(--main-color);
+}
+
+.Menu-btn:hover a {
+    color: var(--main-color);
+}
+
+
+
+
+
+
