@@ -93,4 +93,5 @@ ou Less) ne doit être utilisé.
 | Étape | Description | Commit |
 |------:|-------------|--------|
 | 1 | Initialisation du projet | [`40f98bb`](https://github.com/donovan-dev-web/Projet-Booki/commit/40f98bb) |
-| 2 | Ajout du Header | [`1ab7169`](https://github.com/donovan-dev-web/Projet-Booki/commit/1ab7169)|
+| 2 | Ajout du Header | [`1ab7169`](https://github.com/donovan-dev-web/Projet-Booki/commit/1ab7169) |
+| 3 | Ajout de la bar de recherche et section Filtres | [`d3e85fc`](https://github.com/donovan-dev-web/Projet-Booki/commit/d3e85fc) |
