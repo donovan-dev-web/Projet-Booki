@@ -96,3 +96,5 @@ ou Less) ne doit être utilisé.
 | 2 | Ajout du Header | [`1ab7169`](https://github.com/donovan-dev-web/Projet-Booki/commit/1ab7169) |
 | 3 | Ajout de la bar de recherche et section Filtres | [`d3e85fc`](https://github.com/donovan-dev-web/Projet-Booki/commit/d3e85fc) |
 | 4 | Ajout section Hébergement et Populaires | [`01000c5`](https://github.com/donovan-dev-web/Projet-Booki/commit/01000c5) |
+| 5 | Ajout section Activité | [`83eeb32`](https://github.com/donovan-dev-web/Projet-Booki/commit/83eeb32) |
+
