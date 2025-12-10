@@ -99,3 +99,4 @@ ou Less) ne doit être utilisé.
 | 5 | Ajout section Activité | [`83eeb32`](https://github.com/donovan-dev-web/Projet-Booki/commit/83eeb32) |
 | 6 | Ajout du Footer | [`3cba9d2`](https://github.com/donovan-dev-web/Projet-Booki/commit/3cba9d2) |
 | 7 | Ajustement, Nettoyage et réorganisation | [`a9a19fe`](https://github.com/donovan-dev-web/Projet-Booki/commit/a9a19fe) |
+| 7 | Ajout du Responsive | [`f4fb9f4`](https://github.com/donovan-dev-web/Projet-Booki/commit/f4fb9f4) |
