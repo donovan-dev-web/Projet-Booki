@@ -1,0 +1,168 @@
+
+/****** filter ***********/
+
+.Filter {
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+/* Filter Title */
+.Filter-title {
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.Filter-title h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 26px;
+}
+
+.Filter-title p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 19px;
+}
+
+/* Filter Searchbar */
+.Filter-search{
+    height: 50px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.Filter-search form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Searchbar-location
+{
+    height: 100%;
+    width: 10%;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    cursor: pointer;
+}
+
+#Searchbar-location:hover
+{
+    background-color: var(--light-bg-color);
+}
+
+#Searchbar-location i
+{
+    color: black;
+    height: 18px;
+    width: 14px;
+}
+
+#Searchbar-textInput
+{
+    height: 100%;
+    width: 55%;
+    border: none;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+#Searchbar-textInput:focus
+{
+    outline: none;
+}
+
+
+#Searchbar-submit
+{
+    height: 100%;
+    width: 35%;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}
+
+/* Filter Filter bar Buttons */
+.Filter-filterbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: fit-content;
+    align-items: center;
+}
+
+.Filter-group {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Filter-group div {
+    display: flex;
+    gap: 15px;
+    height: 100%;
+}
+
+.Filter-filterbar p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Filterbar-btn {
+    height: 100%;
+    padding: 4px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 25px;
+    border: 2px solid var(--grey-border-color);
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.Filterbar-btn:hover {
+    background-color: var(--filter-bg-color);
+}
+
+/* Filter Info */
+.Filter-info {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 24px;
+    align-items: center;
+    gap: 10px;
+}
+
+.Filter-info i {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid var(--grey-border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.Filter-info p {
+    font-size: 16px;
+    font-weight: 400;
+}

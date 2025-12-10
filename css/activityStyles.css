@@ -1,0 +1,32 @@
+/****** Activity ***********/
+.Activity {
+    width: 100%;
+    margin: 30px;
+    padding: 30px;
+}
+
+.Activity-cards-group {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.Activity-cards {
+    width: 25%;
+    margin: 0 15px;
+}
+
+.Activity-cards-content img {
+    height: 380px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.Activity-cards-content h3 {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
