@@ -58,3 +58,55 @@ header {
 .Menu-btn:hover a {
     color: var(--main-color);
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .Logo a {
+        justify-content: flex-start;
+        padding: 0 30px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Logo {
+        width: 120px;
+        margin: 30px;
+    }
+
+    .Logo a {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .Menu {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .Menu-btn {
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .Menu-btn:hover {
+        border-top: none;
+        border-bottom: 2px solid var(--main-color);
+    }
+
+    .Menu ul {
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+}

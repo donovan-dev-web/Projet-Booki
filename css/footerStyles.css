@@ -6,7 +6,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    gap: 30px;
 }
 
 .Footer-section {
@@ -30,4 +32,24 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    /*--*/
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    footer {
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .Footer-section {
+        width: 100%;
+    }
 }

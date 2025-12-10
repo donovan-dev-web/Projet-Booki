@@ -1,20 +1,22 @@
 /****** Activity ***********/
 .Activity {
     width: 100%;
-    margin: 30px;
     padding: 30px;
+    box-sizing: border-box;
+    margin: 0 30px;
 }
 
 .Activity-cards-group {
     width: 100%;
     display: flex;
-    gap: 15px;
     flex-direction: row;
 }
 
 .Activity-cards {
     width: 25%;
-    margin: 0 15px;
+    margin: 0 30px 0 0;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .Activity-cards-content img {
@@ -29,4 +31,35 @@
     font-size: 16px;
     font-weight: 700;
     margin: 0;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .Activity {
+        margin: 0;
+    }
+    .Activity-cards-content img {
+        height: 200px;
+    }
+
+    .Activity-cards {
+        margin: 0 30px 0 0;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .Activity-cards-group {
+        flex-direction: column;
+    }
+    .Activity-cards {
+        width: 100%;
+    }
+    .Activity-cards {
+        margin: 15px 0 15px 0;
+    }
+
 }

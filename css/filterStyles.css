@@ -5,6 +5,7 @@
     display: flex;
     gap: 35px;
     flex-direction: column;
+    box-sizing: border-box;
 }
 /* Filter Title */
 .Filter-title {
@@ -51,11 +52,7 @@
     border: none;
     border-radius: 15px 0 0 15px;
     cursor: pointer;
-}
-
-#Searchbar-location:hover
-{
-    background-color: var(--light-bg-color);
+    background-color: var(--main-bg-color);
 }
 
 #Searchbar-location i
@@ -81,6 +78,10 @@
     outline: none;
 }
 
+#search-icon {
+    display: none;
+    color: white;
+}
 
 #Searchbar-submit
 {
@@ -133,8 +134,10 @@
     border-radius: 25px;
     border: 2px solid var(--grey-border-color);
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
     cursor: pointer;
+    text-wrap: nowrap;
+    background-color: var(--light-bg-color);
 }
 
 .Filterbar-btn:hover {
@@ -165,4 +168,66 @@
 .Filter-info p {
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .Filter-filterbar {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Filterbar-btn {
+        padding: 10px 19px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #search-text-btn {
+        display: none;
+    }
+    #search-icon {
+        display: block;
+    }
+
+    .Filter-search {
+        width: 100%;
+        margin-top: 35px;
+    }
+    #Searchbar-location {
+        width: 15%;
+    }
+    #Searchbar-submit {
+        width: 20%;
+        border-radius: 15px;
+    }
+
+    .Filter-filterbar {
+        width: 100%;
+    }
+
+    .Filter-group {
+        align-items: initial;
+        flex-direction: column;
+        width: 100%;
+    }
+    .Filterbar-btn {
+        justify-content: flex-start;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .Filter-info {
+        width: 100%;
+        height: auto;
+    }
+    .Filter-info i {
+        flex-shrink: 0;
+    }
 }

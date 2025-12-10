@@ -69,3 +69,23 @@ a {
     margin-bottom: 40px;
     padding: 0px 50px;
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .Section {
+        padding: 0px 30px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .main-container {
+        padding: 0;
+    }
+    .Section {
+        padding: 0px 20px;
+    }
+}
