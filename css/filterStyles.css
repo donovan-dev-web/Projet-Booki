@@ -204,6 +204,10 @@
         max-width: 15%;
         aspect-ratio: 1;
     }
+    #Searchbar-textInput
+    {
+        width: 100%;
+    }
     #Searchbar-submit {
         max-width: 20%;
         aspect-ratio: 1;
