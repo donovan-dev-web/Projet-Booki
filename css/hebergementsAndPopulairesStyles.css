@@ -180,7 +180,7 @@
         width: 100%;
     }
     .populaires-cards .card {
-        margin-top: 15PX;
+        margin-top: 15px; /* a verifier */
     }
 
     .hebergements-cards-group {
